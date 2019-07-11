@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import * as React from 'react';
 import { User } from 'react-feather';
 import { useGlobal } from 'reactn';
-import reactModal from 'react-modal';
+import Modal from 'react-modal';
 import { Button } from 'react-desktop/windows';
 import appContext from '../../contexts/appContext';
 import Dialog from '../Dialog';

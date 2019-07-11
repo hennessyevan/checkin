@@ -2,9 +2,9 @@ import * as React from 'react';
 import { NavPane, NavPaneItem, Text } from 'react-desktop';
 import { Home, Clipboard, Settings } from 'react-feather';
 import appContext from '../contexts/appContext';
-import reactHelmet from 'react-helmet';
-import Attendance from '../views/Attendance';
-import Settings from '../views/Settings';
+import Helmet from 'react-helmet';
+import AttendanceView from '../views/Attendance';
+import SettingsView from '../views/Settings';
 import { css } from '@emotion/core';
 
 const iconMap = new Map<string, any>();

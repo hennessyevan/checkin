@@ -1,6 +1,6 @@
 import electron from 'electron';
 import shortid from 'shortid';
-import lowdb from 'lowdb';
+import low from 'lowdb';
 import FileSync from 'lowdb/adapters/FileSync';
 import path from 'path';
 

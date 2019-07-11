@@ -19,7 +19,9 @@ const Settings: React.FC<Props> = ({ setTheme }) => {
                 push={true}
                 theme={theme}
                 onClick={() => {
-                    db.update('theme', theme => (theme === 'light' ? 'dark' : 'light')).write();
+                    db.update('theme', (theme: string) =>
+                        theme === 'light' ? 'dark' : 'light'
+                    ).write();
                     setTheme(theme === 'light' ? 'dark' : 'light');
                 }}
             >

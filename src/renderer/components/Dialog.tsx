@@ -1,5 +1,5 @@
 import * as React from 'react';
-import reactModal from 'react-modal';
+import Modal from 'react-modal';
 import { Button } from 'react-desktop/windows';
 import appContext from '../contexts/appContext';
 
